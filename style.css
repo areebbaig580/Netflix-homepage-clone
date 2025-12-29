@@ -243,7 +243,40 @@ body {
     opacity: 0.9;
     filter: drop-shadow(0 0 12px rgba(224, 61, 205, 0.6));
 }
+.faq{
+    display: block;
+    margin-left: 11vw;
+}
+.faq h2{
+    color:  white;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+    
+}
+.faqbox{
+    height: 84px;
+    width: 90%;
+    background-color:  #333232;
+    display: flex;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.faqbox:hover{
+    background-color: #444444;
+    
+}
+.question{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+    
+}
+.plus-sign{
+    height: 40px;
+    margin-right: 10px;
+}
 
 /* footer section */
 
