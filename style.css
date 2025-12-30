@@ -114,6 +114,8 @@ body {
 
 .buttons {
     display: flex;
+    justify-content: center;
+    
 
 }
 
@@ -122,7 +124,7 @@ body {
     height: 56px;
     width: 200px;
     font-size: 20px;
-    font-weight: 510;
+    font-weight: 800;
     background-color: #f6121d;
     border: 1px solid #333;
     border-radius: 0;
@@ -135,7 +137,7 @@ body {
     background-color: #E50914;
 }
 
-.buttons input {
+.input-top-email {
     color: white;
     height: 56px;
     width: 360px;
@@ -241,8 +243,12 @@ body {
     right: 20px;
     bottom: 20px;
     opacity: 0.9;
-    filter: drop-shadow(0 0 12px rgba(224, 61, 205, 0.6));
+    /* filter: drop-shadow(0 0 12px rgba(255, 53, 235, 0.6)); */
 }
+
+
+/* faq boxes */
+
 .faq{
     display: block;
     margin-left: 11vw;
@@ -276,6 +282,32 @@ body {
 .plus-sign{
     height: 40px;
     margin-right: 10px;
+}
+
+
+/* bottom email login section */
+
+
+.email-login{
+    padding-right: 5rem;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.input-bottom-email {
+    color: white;
+    height: 56px;
+    width: 40vw;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    background-color: rgb(1, 1, 1);
+    border: 1px solid grey;
+    border-radius: 2px;
+    cursor: pointer;
+
 }
 
 /* footer section */
