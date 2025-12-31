@@ -56,7 +56,7 @@ Netflix-homepage-clone/
 │── index.html
 │── style.css
 │── assets/
-│   └── images/
+│   └── preview/
 │       └── preview.png
 │── README.md
 </pre>
