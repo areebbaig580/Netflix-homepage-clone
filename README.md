@@ -13,7 +13,7 @@ landing page to strengthen front-end development fundamentals.
 <img src="assets/Preview/Preview image (1).png" alt="Netflix Homepage Clone Preview" width="100%">
 <img src="assets/Preview/Preview image (2).png" alt="Netflix Homepage Clone Preview" width="100%">
 <img src="assets/Preview/Preview image (3).png" alt="Netflix Homepage Clone Preview" width="100%">
-<img src="assets/Preview/Preview image (4).png" alt="Netflix Homepage Clone Preview" width="100%">
+
 </p>
 
 
