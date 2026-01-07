@@ -3,7 +3,7 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-
+    max-width: 100%;
 
 }
 
@@ -13,33 +13,50 @@
 body {
     background-color: black;
     overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
 }
 
 /* hero section */
 .hero {
-    background-image: url(assets/hero\ image.png);
-    background-size: contain;
+    background-image: url(assets/hero\ image.jpg);
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     top: 0;
+    position: relative;
+    z-index: 1;
 
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
 }
 
 /* top nav panel */
 
 .nav {
-    max-width: 80vw;
+    max-width: 90vw;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    position: relative;
+    z-index: 2;
 }
 
 .logo img {
     height: 80px;
-    position: relative;
+    z-index: 2;
 }
 
 .language-select {
@@ -48,6 +65,7 @@ body {
     color: white;
     background-color: black;
     border-radius: 3px;
+
     font-weight: 700;
 }
 
@@ -75,6 +93,7 @@ body {
     flex-direction: column;
     margin-top: 9rem;
     position: relative;
+    z-index: 2;
 
 }
 
@@ -115,7 +134,7 @@ body {
 .buttons {
     display: flex;
     justify-content: center;
-    
+
 
 }
 
@@ -154,9 +173,19 @@ body {
     height: 2px;
     width: 100%;
     background-color: rgb(38, 37, 37);
+
 }
 
+
 /* trending section */
+
+.trending-heading {
+    color: white;
+    margin-left: 5.6rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+
+}
 
 .trending-boxes {
     display: flex;
@@ -164,12 +193,6 @@ body {
 
 }
 
-.trending-heading {
-    color: white;
-    margin-left: 5.6rem;
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
-}
 
 .box {
     width: 200px;
@@ -249,37 +272,41 @@ body {
 
 /* faq boxes */
 
-.faq{
+.faq {
     display: block;
     margin-left: 11vw;
 }
-.faq h2{
-    color:  white;
+
+.faq h2 {
+    color: white;
     margin-bottom: 2rem;
     margin-top: 5rem;
-    
+
 }
-.faqbox{
+
+.faqbox {
     height: 84px;
     width: 90%;
-    background-color:  #333232;
+    background-color: #333232;
     display: flex;
     margin-bottom: 0.5rem;
     align-items: center;
     justify-content: space-between;
 }
 
-.faqbox:hover{
+.faqbox:hover {
     background-color: #444444;
-    
+
 }
-.question{
+
+.question {
     color: white;
     margin-left: 20px;
     font-size: 25px;
-    
+
 }
-.plus-sign{
+
+.plus-sign {
     height: 40px;
     margin-right: 10px;
 }
@@ -288,7 +315,7 @@ body {
 /* bottom email login section */
 
 
-.email-login{
+.email-login {
     padding-right: 5rem;
     color: white;
     text-align: center;
@@ -296,6 +323,7 @@ body {
     margin-top: 5rem;
     margin-bottom: 1rem;
 }
+
 .input-bottom-email {
     color: white;
     height: 56px;
