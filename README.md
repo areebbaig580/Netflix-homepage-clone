@@ -45,7 +45,7 @@ landing page to strengthen front-end development fundamentals.
     <li>HTML5</li>
     <li>CSS3</li>
     <li>Flexbox</li>
-    <li>Google Fonts / Icons (if used)</li>
+    <li>Google Icons</li>
 </ul>
 
 
